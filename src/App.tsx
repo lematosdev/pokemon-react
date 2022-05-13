@@ -1,17 +1,11 @@
 import './App.css';
-import Nav from './features/Nav';
-import Footer from './features/Footer';
+
+import { Layout } from './components/Layout';
 
 function App() {
   return (
-    <>
-      <Nav />
-      <div className='App'>
-        <h1>Hola putita 2</h1>
-        <h2>hola putita 3</h2>
-      </div>
-      <Footer />
-    </>
+    <Layout>
+    </Layout>
   );
 }
 
